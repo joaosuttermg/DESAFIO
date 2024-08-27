@@ -1,0 +1,16 @@
+input[type="file"] {
+    
+    font-size: 1.2em;
+    color: #fff;
+    padding: 10px;
+     
+}
+.filebox {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
