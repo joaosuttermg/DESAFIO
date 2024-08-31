@@ -1,16 +1,58 @@
 input[type="file"] {
+    display: none;
     
-    font-size: 1.2em;
-    color: #fff;
-    padding: 10px;
-     
 }
 .filebox {
     display: flex;
+    flex-direction: column;
     width: 100%;
     align-items: center;
     justify-content: center;
-    
+}
 
+.input-file {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px 10px;
+    border: 2px dashed #000;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+footer {
+    background-color: rgb(39, 39, 39);
+    padding: 20px;
 }
 
